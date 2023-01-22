@@ -1,8 +1,10 @@
 body{
-    font-family: arial, verdana;
+    font-family: "Arial", Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20px 20px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1{
@@ -18,7 +20,8 @@ h2{
 
 p{
     font-size: 24px;
-    padding: 10px 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 img{
@@ -44,16 +47,16 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom: #FFFFFF 2px solid;
+    border-left: #FFFFFF 5px solid;
 }
 
 .blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right: #FFFFFF 5px solid;
+    border-top: #FFFFFF 2px solid;
 }
 
 .blue h2{
@@ -68,8 +71,8 @@ div{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom: #FFFFFF 2px solid;
+    border-left: #FFFFFF 5px solid;
 }
 
 .yellow p{
@@ -77,11 +80,11 @@ div{
 }
 
 .green{
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right: #FFFFFF 5px solid;
+    border-top: #FFFFFF 2px solid;
 }
 
 footer{
@@ -92,5 +95,7 @@ footer{
 footer p{
     text-align: right;
     font-size: 20px;
-    padding: 15px 15px 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
